@@ -16,3 +16,4 @@ git commit -m'' :  when we want  commit message without moving to the 						comm
 git log: list the commit history					
 
 
+git conflict :
