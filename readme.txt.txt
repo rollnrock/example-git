@@ -10,6 +10,9 @@ git commit: committ a file
 	  pres esc to exit insert mode
 	  the type (:wq) to rewrite and finish commit
 
-git commit -m :  when we want  commit message without moving to the 						commit window
+git commit -m'' :  when we want  commit message without moving to the 						commit window the '' is where you write our new
+					new message.
+
+git log: list the commit history					
 
 
