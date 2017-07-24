@@ -95,4 +95,10 @@ git branch  : when we merge every branch back to their master 							branch
 git rm '*.txt' : rm removes all files form the disk. this will romove all
 				the txt files from the folder.
 
-git rm-r :this removes all the the folders and files from the given 			directory				
+git rm-r :this removes all the the folders and files from the given 			directory	
+
+git branch -d : deletes the branch
+
+git branch -d -f : deletes the branch that has not been merged
+
+git push : push everything in the remote repository
