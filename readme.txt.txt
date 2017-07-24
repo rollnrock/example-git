@@ -112,3 +112,5 @@ git remote -v : the screen shows us urls
 git fetch origin : this will get any changes in the github serve since 						it was cloned.it will pullthe data but you have to 						git merge to merge the data.
 
 git pull origin :merges and pulls the data automatically.
+
+git remote add <name> <url>: the name what you want to call your repo
