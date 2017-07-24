@@ -102,3 +102,13 @@ git branch -d : deletes the branch
 git branch -d -f : deletes the branch that has not been merged
 
 git push : push everything in the remote repository
+
+git remote : check the list of remote repsitories
+
+git clone : this is when you want to copy a repository in your github
+
+git remote -v : the screen shows us urls
+
+git fetch origin : this will get any changes in the github serve since 						it was cloned.it will pullthe data but you have to 						git merge to merge the data.
+
+git pull origin :merges and pulls the data automatically.
