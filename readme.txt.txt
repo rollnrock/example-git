@@ -37,7 +37,7 @@ git add .
 git commit
 //end//
 
-git branch : add a new branch. finish it with the name. a branch is a 					part of a file
+git branch : add a new branch. finish it with the name. a branch is a part of a file
 
 git checkout : this is where the table goes to a new branch
 
@@ -99,6 +99,7 @@ git rm-r :this removes all the the folders and files from the given 			directory
 
 git branch -d : deletes the branch
 
+
 git branch -d -f : deletes the branch that has not been merged
 
 git push : push everything in the remote repository
@@ -109,8 +110,16 @@ git clone : this is when you want to copy a repository in your github
 
 git remote -v : the screen shows us urls
 
-git fetch origin : this will get any changes in the github serve since 						it was cloned.it will pullthe data but you have to 						git merge to merge the data.
+git fetch origin : this will get any changes in the github serve since it was cloned.it will pullthe data but you have to 					git merge to merge the data.
 
 git pull origin :merges and pulls the data automatically.
 
-git remote add <name> <url>: the name what you want to call your repo
+git remote add <name> <url>: the name what you want to call your repo:
+
+
+git clean -n : this will show what is to be deleted
+
+git clean -f : this will delete the files
+
+
+git reset -- hard HEAD : this reverts to the previous commit ,ignoring any chagnes
